@@ -1,2 +1,86 @@
-hallo world  alallalallalalaa;alalala
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的个人博客</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .fakeimg {
+            height: 200px;
+            background: #aaa;
+        }
+    </style>
+</head>
+<body>
+<div class="jumbotron text-center" style="margin-bottom:0">
+    <h1>我的第一个个人主页</h1>
+    <p>Welcome to my personal blog！</p>
+</div>
 
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">李青菁博客</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">个人主页</a></li>
+                <li><a href="#">我的学习生涯</a></li>
+                <li><a href="#">我的故事</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h2>关于我</h2>
+            <h5>我的照片:</h5>
+            <div class="fakeimg"><img src="imge/girl.jpg" width="100%"></div>
+            <p>关于我的介绍..</p>
+            <h3></h3>
+            <p>描述文本。</p>
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a href="https://www.runoob.com/html/html-tutorial.html">Html学习</a></li>
+                <li><a href="https://www.runoob.com/css/css-tutorial.html">css学习</a></li>
+                <li><a href="https://www.runoob.com/js/js-tutorial.html">JavaScript学习</a></li>
+            </ul>
+            <hr class="hidden-sm hidden-md hidden-lg">
+        </div>
+        <div class="col-sm-8">
+            <h2>个人简介</h2>
+            <h5>基本资料</h5>
+            <div class="fakeimg"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHkAwgMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAADBAACBQYBB//EADgQAAIBAwIEAwYEBgIDAQAAAAECAwAEERIhBSIxQRNRYQYUMnGBkTNCUrEjNDVywdEVoYLw8XP/xAAYAQADAQEAAAAAAAAAAAAAAAAAAQIDBP/EACIRAAICAgICAgMAAAAAAAAAAAABAhESIQMxQVETIgRhgf/aAAwDAQACEQMRAD8A7Yk4qR+ZqNsN+tVyBXaYhFGWptSAAKSVqKkmTigdj0R3pgNgUkjUQPWbRQwZMVVpiRQS2aGz0YgGEpByvWvEB2YjZt6XVsmmI8dM9ts0NUIvNJpXA60BX7Mc1SV8jrQS29NITYw426Vl3YGrFPGfl60rLoZmJ6iriiZCmgKcmtGzvBDbNlsDyrOlbbNLsxbArXG0ZZU9HXcEjTwnu/zPT87K8e5rBsLgW/DCWfJ7AUGPiDStl20+lcz422zZTSQPjFt7y5yWAXoPOtD2Zj93iZM5U1j3968snIcDpW77Ori3DMdzVSTUNii05GhdNpU4rDl0xSE4rX4lKsaZJrnL7xJrhNBJA6haiKLkzUhul0ZxTKZdS7HG21JWduzgHBUetP3A0w6fIVLGhAynJ5q9pch8nepQMAx2rClvLz/nlh1qLQKDyleucEHO/ceW9a7tihhv3z9a6MbMrMpprz3528dzF4oIUYHLnSe/p+/cUxFfXnv+Cnhxe8eEodfxQTjl37AMc79fTNN3N2ttD4j5IBC8oz1OKTXjNsbJbyPU0bOVAxgnBwaVV5CxlLy7LoYpZHQsMExYzvGDkY22Ln089sUWO7umeLQ8jqzgAmLTndAc7bbaj9cdqqvFrKCzF1JNpi6DWCCT6A9fpTHEeJwWFgbycsYzgLpGSxPSpodj9vMJoxIFYK3Zhgj6VcgHNItfKsNu6Kx8dQ6httts7dc4PT0qk/FokiidUY+IWxk9gcZ2z3x96Bj3Q+lCluQvL1pNb3xYBJ8Ocgb/AEpuytZmjM2kMsnfPSnpK2K7dFNZkAK5zvkYqaJDjG2adhtWBBKk5679KJJLDFgOuS22x/es3yV0PAzo7OdmG4y2c5Oy4oLQyNJiMMVY4DGt+BomgAmCoWX4Qe3l8qMhhKOW0rp+LO+Onbt8qS5WHxnITRyKCzKQucZPegNtW/eQi4OiJW36sfyisGeN4pCpB2OK6eOaZhONBoXITFWO29Dj2FR32xWhIGVuatXhV86FVLaVFZQXU2TVmOnocCiUU1Qk2nZtPLJxi8aFH0xKNzWlFDDBhUG+MZNYXCBewkzW8GuNupJrpEh0r4kuAxGcVy8irSOmG1bKTzpbx5as6biIY+lWvf4zEsdhWLcACTCb1MVZV0aPvw8hUrK0NUqsUGQaR96iAdTQhzH0op5VrdoysDf28N1F4c66k1BseooMPDrQ2q2phUwoWKg9ic7j70diSdulMQIE3PWlSCy72dvdW4gnjUxjGANsfLFezcJs7q2NtNG7wltTAytzH1Od6NHkmmWZY0361mykL+5WyLEojGmIEKuBjcg5I89hSV1aWyRopDFULFQT5tqP/YH0pp7gauv2oklik0XiC4RCe0hxTpLsXfRiWlsLi8t4w55TgM57Hr9a7xIUSFI2ZmQbA52NcXZ20kl7ojxyNu+rbr5112orbEEjSR1G4z9Kz/I8UVxCN9dIjOkUytIuP4ec5H0pFveWjaZsREHK5XJY9MfvVFBc+GItEiK2QOmeoz50pxe/k4ei+BzzIwIL5GB0z5mudOkasbcIseZX1yAjMf5m/wBU00k93EkVuhjdsnYnLfeuUsvaqSzfEzxzNNJzssZCgdNR36/9bV1HD7tJwjWzCW4djp5sDT9NqaaYqGJGSwCwxfxGCjUCeh7mkb2J5W1yqBthIxtv5n5U7NbLHMEjYP4h/iELzE+QPlTiJDbocjMSjAH+M1cZYuyWrOTlHhHSc5HnQgSx2p7i0guLnxEQIpHKB5UvGgFd0XqzlkqZ4OVaCcyyrGnVjjarTttha1/ZrhhaVbucAIPhB7miUsVYoq3RsELYW8MKZAC70hc3cm/MaPxUu8pxSGDjmFcnZ1foE9y7jBpc6MZPWrTYVjQQjP6CqJPfEHpUq3uw/UK9oCxMTaBirrca9q1Z/Z6UKrQYk8xSkvDZYfxYyuO9dCnFmeMkCjZfrR1bcb0sYJPy70xBC68z9B6UnQIdi0omtthSdxea3IHShXN0xOhfhFIlyTmiMBSkOeIAcgjNQzseUMMZ+/zpFnI71UMW61pgRnQ5b5a7VlKhgcYPQ/WuqvLnwrEMWiCgDIjOSN+9cghC46HHn0rYiluPdRHboGi0jJCaRn/39q5vyIWrRrwzFY8NcsyXKqTjWrp1HbAOP81nXwt7+YkxtcXMSkJlsKnYeg+tNcRZpYWmWJVZFCto2Zvl6fWsETSBRMiFGPKikkqD3G22d+vWuFt9HUhHit+tqoswqGRSfFcBTg+S7bbfvWn7OX0cSxQl3jn3aUIuS4xsCcjApN/ZfiEjOAi+IULgH4jgZx177ffeneBcHltZVuZJ1GEz0xjI6f4+3rVxRMmdYkssRGgku3wNnYefb5b1f+IIGklYPjYqcAZ7GlrC4VmlYITJnI/2ablaS5j8Z8KF+5+daeSTLkcyuXfqfOqE+Rr2QgucbZ7USKHOC+wrsWkcz2xfwWc8o+tdDBdx21lEmd0HSs4c3JGtRrY/nqZVLsqOhyTiUPXqTQzewuhOnBpEwhck1QkDoM1OCKzYaWSN/hTHrQ40LMMdTVUjklYKoO9bEdvbWkYZxl6UmojWxL3SfzWpTnv8X6RUrO2XihKHiN1F3yPnWtZ3guEKygcw3zXNQXQZ8PsKcS7gRsE49a2lD0jNTHJoYoJyVblNRriL4az72dWIMblqSLSau9UuOyXPZqyWttcZOSD6UvPwyFYiIpMsPWkveZUBAOKnvj43NWoSXTIc4so9pL5A0SOwl06iBXi3RJ9KaivQg86puRKUWKm3f9Jo44hBw+Me/TvlsaIlJOf9UPivHY7aIRwx67qTASMefmaV4bwmMyx3/FH8a8D6tBPIvkMd65p8kp/WJtCKj9mO3Fm3EohdaHRTkBCMf/aTsbGVY2kaVneM/wANXPLnzC1vrKJZQ0m/bpnHyHShXGfeQ0S6QBgZOwrD4qNc0ylvcaQ8sreJIFIKou5+9Bgx4fhQR6FI5sAA79aYQxiQNOxbbLADGSK8jvUjlcpCoJPntjtVJNdCbRazs2idndxGip321Cqz3Am5UOBncY2oU9w8rbtyjoB2qRLkkgVcYO7ZDl4RFjCb4zRYkaU77CvdDeVXUgdT9q1ZKQYNHFkLjPnQmdn6CrK6HbH3q6mMfOoKAC3LbudqsY44+1Xd89NgKCxGeY0AFhY+IGRc4NMXEfiPqY8vpQVKaB4ZwO9EM8SIRqzUPstA/AjqUH3pf0VKKY7RlS2cqoH8RTjsKF4IIDF9/Kq+M2e9eBi1du/Jy2gmABs3ShySMepq2DiqaDTJZUEnvVghNEjhJ7U0ts2nbehySEosUSOluI3q2ahI11zvsiUXil0vD48vvKdkQd6rwrhUqsbu9BNzJvg/kH+65+Tkc3hH+m0YYq2D4fYtE5ubk67p+p/SPIVoKpz1ppbfvtVWi09auKUFSIdt2ygd16NU8aYncmoRVMmqEWdi3WvAp7VdVJr3GPX5UtAFjjUDLGriRV6GlwrN1O1XSLHmalloMZGYbHaqFT50QDA3NCklUdDmpKLA4r3xcGlmlJOwqwR2FOhWHaYnvVdQPWhYVPxW0/OmY4UYZVwR6GpbSGrZECsdzgURrQybxnIHWiQwoGGonFMOxdcJyqO9ZuRol7AizOB0qVbn/Wa8qcmPFHMahRFKirzcMvITzQN9K8itJy+PCbI9K7rXs5aZYMtXR1HUUwvDbooXEeVHUg0fhHDorqQtKeVTuKhzikWosDDIh7VOI8Ri4dZmeXHkq/qNdC//AB3D7Z5HjVIUGpmbyrirGIe1XHnvLxPD4XbHEcXZj2X/ACftXLyc16RtHjrsv7O8Lm4ncNxa/Qszbwoew8/9VutG6PgI/wAiK2Huol2iZBgdAKDFeuzY0hz50oSxVDlGzGlnPQDFMw8PnuIteVUdsnrTV1aRktNIMbdBSgvPDlUlSUXtW2VrRnjT2Cl4fLF8YoYtu5xWlNdxT8yk5qk3DhdBXbOOyg4pfI/IYITEY6LXhiVTnOaatLSVX/jlVg7ADcUa6t4CwVJdDdmO9L5AwM4EZ3OKjsSOQ49acHDQ+l1nVvPA61U2htpRjeFjzelD5EGLM1ROSQx1f4rU4b4ajEsYJ8yKfxGc4QYxsazTNaRTEjO/UZ6GplyWqRSh5NGc25Gkxr9qT8NcnQmB2qLc+I2FGAPPvVy7HYHFRbRVIC9p46DUAMb5qktta2wBXlb0PepDcSLK0bEkDoTXsugsC4zQAOC8kc8wGgbZFEubl0wI1yD3oLEK3KNjSFxxeCwlWO7cKH+GjofY74152xXlZTe01iGI1jY17RlEKY7D7f8ADnk0zqyg98Vb2l9rbKCwIsirTyLtjtXykUxP2+QrFzdFnV8C9pZ4eGXUUju0pyV77Uhwb2mu7PiIZ5D4TNzCszhfWX+2lB/N/wDmP3pXqxLs+g8b4rL7Q3tvwuyxHESDK/7n6fvVvaXiNt7N21vZWADuEwFJ/wCz86wOBf15frSvtn/Wn/t/yaIulkOS6Ru8M47Fd2oaeVY5h8QzitmwudLKQ2sMa+XLXe8C/lYflW8JZIiSpnakJLCCVz6UtLAzKRoCpRIvwl+lez/hj50J0DQBktreLUys2PKq/wDKQKF0qVXpipd/y1ZUfT61SV9iejd8WOaHkOMjvWTcoZZFCn4acg+H6Uq345pUJvRa3lNq6xsTzjbyFMSs5XCkEjqPMUtddYvnRV/EHyooAkdwzcpGnFZ813apcuCw1r8Qph/xW+dcxxD+tSf/AJ0UFmpHxq0cvoYgxk/UU1a8XtrtdUMqE53XO9cPY/zEnyaleEf1Bf76nKgO24xxu34eSshBk06gnc1g3XtjI+jwIdvzBzWd7V/1Rv7BWEOpqJcjLUVRu33tNfXUMYVvCKnOUPWs6+4jPfurznLKMZpX8tRehqHJ+y0ke5qV5UqRn//Z" width="100%" height="100%"></div>
+            <p> 1.大一进入卓越公益协会，到大二担任公益部副部长，并担任班级公益队长。<br>
+                2.在校期间进入校园纠察队工作，表现突出，多次获得“优秀成员“称号。<br>
+                3.大一入选学院篮球队，并多次参加院级、校级比赛获奖。<br>
+            </p>
+            <p>有着扎实的计算理论基础，擅长多种软件和工具的使用
+                主修地理信息科学，大三进入蓝桥软件学院学习java、oracle等语言
+                善于与人沟通，能吃苦耐劳，抗压能力较强，能迅速适应各种环境
+                <br>
+            <h2>个人简介</h2>
+            <h5>自荐</h5>
+            <div class="fakeimg"><img src="imge/girl.jpg" width="100%" height="100%"></div>
+            <p>我是一名即将毕业的本科生，很荣幸有机会向您呈上我的个人资料。在投身社会之际，为了更好的发挥自己的才能，谨向各位领导做一下自我推荐。
+                在大学四年时间的里，除了学习基础与专业知识以外，我更注重综合素质的提高。在学习上立足于专业知识，计算机基础应用和课外书籍三方面循序渐进，不断扩大自己的知识深度和广度，以良好的成绩完成了本科的学习。熟练掌握C、JAVA、数据结构、操作系统原理、编译原理等计算机基础知识，对ORACLE等数据库编程也有一定的了解。公共基础良好，专业基础扎实，有着一定动手能力，是我给自己的一个比较客观的评价。
+                我还充分利用课余和假期时间参加社会实践活动，从事过销售、便利店等工作，在实践中培养了动手能力和组织能力，丰富了社会阅历，为今后开展各项工作打下坚实的基础。工作之余，我喜欢绘画，并且热衷于跑步、篮球等运动。作为正要跨出校门，迈向社会的本科生，我将以满腔的热情与信心去迎接未来的一切。
+                希望通过我这封自荐书，能使您对我有一个更全面深入的了解，我愿意以极大的热情与责任心投入到贵公司的发展建设中去，您的选择是我的期望，给我一次机会还您一份惊喜，期待您的回复！最后衷心的希望能得到您的赏识与任用！谢谢
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+    <p>谢谢观看</p>
+</div>
+</body>
+</html>
